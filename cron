@@ -1,1 +1,5 @@
-hvksdglvhj,sevdflhj,sdvkh,msdvgljyh,sdylgfcjvhdfzcvgvyjkhvdvfkjh,vlukdfgukv.jvufkd.
+- type: http
+  id: example_dot_com
+  name: Example.com
+  urls: ["https://example.com/"]
+  schedule: "@every 10s"
