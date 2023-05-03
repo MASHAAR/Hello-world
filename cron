@@ -5,7 +5,7 @@
   schedule: "@every 10s"
   
 - type: http
-  id: example_com
+  id: example-com
   name: Example.com
   urls: ["https://example.com/"]
   schedule: "@every 10s"
