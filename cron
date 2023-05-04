@@ -9,3 +9,9 @@
   name: dev customer portal
   urls: ["https://dev.customerportal.apainsurance.ke/"]
   schedule: "@every 10s"
+  
+- type: http
+  id: example_com
+  name: Exampl.com
+  urls: ["https://example.com/"]
+  schedule: "@every 10s"
