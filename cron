@@ -15,3 +15,10 @@
   name: Exampl.com
   urls: ["https://example.com/"]
   schedule: "@every 10s"
+
+- type: http
+  id: uat_customer_portal
+  name: Uat Customer Portal
+  urls: ["https://uat.customerportal.apainsurance.ke/"]
+  schedule: "@every 10s"
+  
