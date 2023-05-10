@@ -21,6 +21,7 @@
   name: Uat Customer Portal
   urls: ["https://uat.customerportal.apainsurance.ke/"]
   schedule: "@every 10s"
+  
 - type: http
   id: uat_assessment_portal
   name: Uat Assessment Portal
