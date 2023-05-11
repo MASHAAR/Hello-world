@@ -1,0 +1,17 @@
+- type: http
+  id: example_dot_com
+  name: Example.com
+  urls: ["https://example.com/"]
+  schedule: "@every 10s"
+
+- type: http
+  id: dev_customer_portal
+  name: dev customer portal
+  urls: ["https://dev.customerportal.apainsurance.ke/"]
+  schedule: "@every 10s"
+
+- type: http
+  id: dev_motor_assessment
+  name: motor assessment
+  urls: ["https://dev.motor-assessment.apainsurance.ke/"]
+  schedule: "@every 10s"
