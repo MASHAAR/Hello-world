@@ -10,7 +10,7 @@
   urls: ["https://dev.customerportal.apainsurance.ke/"]
   schedule: "@every 10s"
   
- - type: http
+- type: http
   id: uat_customer_portal
   name: Uat Customer Portal
   urls: ["https://uat.customerportal.apainsurance.ke/"]
@@ -28,8 +28,14 @@
   urls: ["https://dev.motor-assessment.apainsurance.ke/"]
   schedule: "@every 10s"
   
- - type: http
+- type: http
   id: dev_life_agent_portal
   name: advisor portal
   urls: ["https://dev.lifeagent.apainsurance.ke/"]
+  schedule: "@every 10s"
+  
+- type: http
+  id: uat_life_agent_portal
+  name: Uat Life Agent Portal
+  urls: ["https://uat.lifeagent.apainsurance.ke/"]
   schedule: "@every 10s"
