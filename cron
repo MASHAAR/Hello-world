@@ -39,3 +39,9 @@
   name: Uat Life Agent Portal
   urls: ["https://uat.lifeagent.apainsurance.ke/"]
   schedule: "@every 10s"
+
+- type: http
+  id: apa_website
+  name: Apa Website
+  urls: ["https://www.apainsurance.org/"]
+  schedule: "@every 10s"
