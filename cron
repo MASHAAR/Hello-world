@@ -45,3 +45,22 @@
   name: Apa Website
   urls: ["https://www.apainsurance.org/"]
   schedule: "@every 10s"
+  
+- type: http
+  id: prod_customer_portal
+  name: customer portal
+  urls: ["http://customerportal.apainsurance.org/"]
+  schedule: "@every 10s"  
+  
+- type: http
+  id: prod_lifeagent_portal
+  name: lifeagent portal
+  urls: ["https://selfservice.lifeagent.apalife.co.ke/"]
+  schedule: "@every 10s"
+  
+- type: http
+  id: prod_assessment_portal
+  name: motor assessment portal
+  urls: ["https://claims.apainsurance.org/"]
+  schedule: "@every 10s"
+  
