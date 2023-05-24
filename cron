@@ -50,30 +50,35 @@
   id: prod_customer_portal
   name: customer portal
   urls: ["http://customerportal.apainsurance.org/"]
-  schedule: "@every 120s"  
+  schedule: "@every 10s"
+  timeout: 120s  
   
 - type: http
   id: prod_lifeagent_portal
   name: lifeagent portal
   urls: ["https://selfservice.lifeagent.apalife.co.ke/"]
-  schedule: "@every 120s"
+  schedule: "@every 10s"
+  timeout: 120s
   
 - type: http
   id: prod_assessment_portal
   name: motor assessment portal
   urls: ["https://claims.apainsurance.org/"]
-  schedule: "@every 120s"
+  schedule: "@every 10s"
+  timeout: 120s
   
 - type: http
   id: dev_innova_auth_base_url
   name: innova.auth
   urls: ["https://innova-witness.apollogroup.co.ke:44389/"]
-  schedule: "@every 20s"
+  schedule: "@every 10s"
+  timeout: 20s
   
 - type: http
   id: innova_base_url
   name: innova base url
   urls: ["https://innova-witness.apollogroup.co.ke:7777/"]
   check.response.status: [401]
-  schedule: "@every 20s"
+  schedule: "@every 10s"
+  timeout: 20s
   
