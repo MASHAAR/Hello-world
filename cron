@@ -117,7 +117,7 @@
     status: 200
     
 - type: http
-  id: uat_motor_assessment
+  id: uat_gis_integration
   name: Upendo V2
   enabled: true
   schedule: '@every 10s'
