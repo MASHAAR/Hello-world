@@ -82,3 +82,51 @@
   schedule: "@every 10s"
   timeout: 20s
   
+- type: http
+  id: uat_gis_service
+  name: Uat gis
+  urls: ["http://internal-apis-services-alb-1140906872.eu-west-1.elb.amazonaws.com/gis/health"]
+  schedule: "@every 10s"
+  
+- type: http
+  id: uat_upendo_v2
+  name: Upendo V2
+  enabled: true
+  schedule: '@every 10s'
+  urls: ["http://internal-apis-services-alb-1140906872.eu-west-1.elb.amazonaws.com/upendo-ussd/actuator/health"]
+  ipv4: true
+  ipv6: false
+  mode: any
+  check.request:
+    method: "GET"
+  check.response:
+    status: 200
+   
+- type: http
+  id: uat_motor_assessment
+  name: Upendo V2
+  enabled: true
+  schedule: '@every 10s'
+  urls: ["http://internal-apis-services-alb-1140906872.eu-west-1.elb.amazonaws.com/motor-assessment/actuator/health"]
+  ipv4: true
+  ipv6: false
+  mode: any
+  check.request:
+    method: "GET"
+  check.response:
+    status: 200
+    
+- type: http
+  id: uat_motor_assessment
+  name: Upendo V2
+  enabled: true
+  schedule: '@every 10s'
+  urls: ["http://internal-apis-services-alb-1140906872.eu-west-1.elb.amazonaws.com/gis-integration-api/actuator/health"]
+  ipv4: true
+  ipv6: false
+  mode: any
+  check.request:
+    method: "GET"
+  check.response:
+    status: 200
+  
