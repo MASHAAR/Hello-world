@@ -104,7 +104,7 @@
    
 - type: http
   id: uat_motor_assessment
-  name: Upendo V2
+  name: motor assessment
   enabled: true
   schedule: '@every 10s'
   urls: ["http://internal-apis-services-alb-1140906872.eu-west-1.elb.amazonaws.com/motor-assessment/actuator/health"]
@@ -118,7 +118,7 @@
     
 - type: http
   id: uat_gis_integration
-  name: Upendo V2
+  name: uat gis integration
   enabled: true
   schedule: '@every 10s'
   urls: ["http://internal-apis-services-alb-1140906872.eu-west-1.elb.amazonaws.com/gis-integration-api/actuator/health"]
