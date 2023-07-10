@@ -130,3 +130,8 @@
   check.response:
     status: 200
   
+- type: http
+  id: quotation-apis
+  name: quotation
+  urls: ["http://internal-apis-services-alb-1140906872.eu-west-1.elb.amazonaws.com/quotation/health"]
+  schedule: "@every 10s"
