@@ -132,6 +132,12 @@
   
 - type: http
   id: quotation-apis
-  name: quotation
+  name: quotation apis
   urls: ["http://internal-apis-services-alb-1140906872.eu-west-1.elb.amazonaws.com/quotation/health"]
+  schedule: "@every 10s"
+
+- type: http
+  id: payment-wallet
+  name: payment wallet apis
+  urls: ["http://internal-apis-services-alb-1140906872.eu-west-1.elb.amazonaws.com/payment-wallet/health"]
   schedule: "@every 10s"
