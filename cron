@@ -70,14 +70,14 @@
 - type: http
   id: dev_innova_auth_base_url
   name: innova.auth
-  urls: ["https://innova-witness.apollogroup.co.ke:44389/"]
+  urls: ["https://innova-witness.apollogroup.co.ke:44389"]
   schedule: "@every 10s"
   timeout: 20s
   
 - type: http
   id: innova_base_url
   name: innova base url
-  urls: ["https://innova-witness.apollogroup.co.ke:7777/"]
+  urls: ["https://innova-witness.apollogroup.co.ke:7777"]
   check.response.status: [401]
   schedule: "@every 10s"
   timeout: 20s
