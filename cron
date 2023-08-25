@@ -156,6 +156,6 @@
 
 - type: http
   id: dev_gis_service
-  name: Uat gis
+  name: dev gis
   urls: ["http://internal-apis-services-alb-1500119157.eu-west-1.elb.amazonaws.com/gis/health"]
   schedule: "@every 10s"
